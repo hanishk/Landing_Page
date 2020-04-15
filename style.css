@@ -7,8 +7,95 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+button{
+    font-family: 'Poppins', sans-serif;
+}
 
 header{
     display: flex;
-    background: lightblue;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.logo-container,.nav-links,.cart{
+    display: flex;
+}
+.logo{
+    font-weight: 400;
+    margin: 5px;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: #5f5f79;
+    font-size: 18px;
+}
+.logo-container{
+    
+    flex: 1;
+
+}
+nav{
+    
+    flex: 2;
+}
+
+.cart{
+    flex: 1;    
+    justify-content: flex-end;
+}
+.presentation{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+}
+.introduction{
+    flex: 1;
+}
+.cover{
+    flex: 1;
+}
+.cover img{
+    height: 60vh;
+}
+.intro-text h1{
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right,#494964,#6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-text p{
+    margin-top: 5px;
+    font-size: 22px;
+    color: 585772;
+}
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-select{
+    border:2px solid #c36cbb;
+    background: transparent;
+    color: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+        
+}
+.cta-add{
+    border: none;
+    color: white;
+    background: #c36cbb;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin: 30px 0px 0px 30px;
 }
